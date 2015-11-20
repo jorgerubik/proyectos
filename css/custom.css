@@ -1,0 +1,118 @@
+/*color #cae6f9*/
+.centrado-vertical{
+	margin: 50px 0px;
+	
+}
+#imagen-creada{
+	background-image: url('../imagenes/frame.png');
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	min-width: 500px;
+	min-height: 500px;
+	position: relative;
+}
+#result-image{
+	width: 500px;
+	margin: 0 auto;
+}
+output{
+	padding-top: 0px;
+}
+output#list{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	max-width: 220px;
+	max-height: 205px;
+}
+output#list2{
+	position: absolute;
+	bottom: 65px;
+	right: 30px;
+	max-width: 220px;
+	max-height: 205px;
+}
+.thumb1{
+	object-fit: fill;
+	overflow: hidden;
+	width: 220px;
+	height: 205px;
+}
+.thumb2{
+	object-fit: fill;
+	overflow: hidden;
+	width: 220px;
+	height: 205px;
+}
+
+body{
+	
+	background-color: #cae6f9;
+	background-image: url("../imagenes/fondo.svg");
+	min-width: 85vw;
+	min-height: 100vh;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container{
+	position: relative;
+}
+
+#logo_gymboree{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#logo_gymboree-2{
+	position: relative;
+	top: 0;
+
+}
+#logo{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
+	width: 350px;
+}
+#logo-2{
+	position: relative;
+	bottom: 0;
+	width: 350px;
+}
+
+#logo25{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#logo25-2{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#payaso{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+
+.navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.logo-sup{
+	height: 100%;
+
+}
+.texto-inf{
+	height: 100%;
+}
